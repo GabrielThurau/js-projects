@@ -1,0 +1,28 @@
+[{
+        "product": "CPT-Self Study", 
+        "price": 1000
+    }, 
+    {
+        "product": "CPT Guided-Study", 
+        "price": 1200
+    }, 
+    {
+        "product": "CPT Premium Study", 
+        "price": 1400
+    }, 
+    {
+        "product": "Performance Enhancement Specialist", 
+        "price": 800
+    }, 
+    {
+        "product": "Wellness Coach", 
+        "price": 1500
+    }, 
+    {
+        "product": "Nutrition Coach", 
+        "price": 900
+    },
+     {
+        "product": "Navigating Diets", 
+        "price": 200
+    }]
