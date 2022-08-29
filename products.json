@@ -1,35 +1,35 @@
 [{
         "product": "CPT-Self Study", 
         "price": "1000",
-        "keywords": ["personal trainer", "cpt", "nasm-cpt"]
+        "keywords": "personal trainer"
     }, 
     {
         "product": "CPT Guided-Study", 
         "price": "1200",
-         "keywords": ["personal trainer", "cpt", "nasm-cpt"]
+         "keywords": "personal trainer"
     }, 
     {
         "product": "CPT Premium Study", 
         "price": "1400",
-        "keywords": ["personal trainer", "cpt", "nasm-cpt"]
+        "keywords": "personal trainer"
     }, 
     {
         "product": "Performance Enhancement Specialist", 
         "price": "800",
-        "keywords": ["sports performance", "performance enhancement specialist", "performance", "sports"]
+        "keywords": "sports"
     }, 
     {
         "product": "Wellness Coach", 
         "price": "1500",
-         "keywords": ["wellness", "wellness coach", "health coach", "cwc"]
+         "keywords": "health coach"
     }, 
     {
         "product": "Nutrition Coach", 
         "price": "900",
-          "keywords": ["nutrition", "cnc", "nasm-cnc", "nutrition coach"]
+          "keywords": "cnc"
     },
      {
         "product": "Navigating Diets", 
         "price": "200",
-         "keywords": ["diets", "navigating diets", "nutrition", "nutrition coach"]
+         "keywords": "diets"
     }]
