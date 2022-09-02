@@ -47,7 +47,6 @@ slides.forEach((slide, index) => {
 //use forEach to add events to the slides array you created with Array.from previously
 
 
-
 // make responsive to viewport changes
 window.addEventListener('resize', setPositionByIndex)
 
