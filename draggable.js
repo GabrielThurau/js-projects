@@ -3,7 +3,19 @@
 //https://codepen.io/bushblade/pen/ZEpvzbK?editors=0010 not my code
 
 const slider = document.querySelector('.slider-container'),
-  slides = Array.from(document.querySelectorAll('.slide'))
+slides = Array.from(document.querySelectorAll('.slide'))
+
+// Array.from creates a shallow copy array
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
+console.log(slides);
+
+//Array(5)
+//0: div.slide
+//1: div.slide
+//2: div.slide
+//3: div.slide
+//4: div.slide
 
 let isDragging = false,
   startPos = 0,
@@ -12,20 +24,29 @@ let isDragging = false,
   animationID,
   currentIndex = 0
 
+//multi-line declarations
+
+
 slides.forEach((slide, index) => {
   const slideImage = slide.querySelector('img')
-  // disable default image drag
   slideImage.addEventListener('dragstart', (e) => e.preventDefault())
-  // touch events
+  // disable default image drag
+  
   slide.addEventListener('touchstart', touchStart(index))
   slide.addEventListener('touchend', touchEnd)
   slide.addEventListener('touchmove', touchMove)
-  // mouse events
+  // touch events
+ 
   slide.addEventListener('mousedown', touchStart(index))
   slide.addEventListener('mouseup', touchEnd)
   slide.addEventListener('mousemove', touchMove)
   slide.addEventListener('mouseleave', touchEnd)
+   // mouse events
 })
+
+//use forEach to add events to the slides array you created with Array.from previously
+
+
 
 // make responsive to viewport changes
 window.addEventListener('resize', setPositionByIndex)
