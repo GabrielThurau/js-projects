@@ -61,15 +61,20 @@ function getPositionX(event) {
   return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX
 }
 
+//get type of event + if it includes mouse get the x-coordinate of the mouse even || get the first item in the touchlist and its x-coord (not including scroll offset)
+
+
 function touchStart(index) {
   return function (event) {
     currentIndex = index
     startPos = getPositionX(event)
     isDragging = true
     animationID = requestAnimationFrame(animation)
-    slider.classList.add('grabbing')
+    slider.classList.add('grabbing') //cursor: grabbing;
   }
 }
+
+//return anonymous function within touchstart() + assign values to variables based on dragging event
 
 function touchMove(event) {
   if (isDragging) {
@@ -77,6 +82,9 @@ function touchMove(event) {
     currentTranslate = prevTranslate + currentPosition - startPos
   }
 }
+
+//
+
 
 function touchEnd() {
   cancelAnimationFrame(animationID)
