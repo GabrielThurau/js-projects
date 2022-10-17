@@ -1,48 +1,226 @@
 [{
-            "course": "cpt self study",
-            "price": "1000",
-            "tag": "cpt",
-            "keywords": ["personal trainer", "cpt", "nasm-cpt"]
-        },
-        {
-            "course": "cpt guided study",
-            "price": "1200",
-            "tag": "cpt",
-            "keywords": ["personal trainer", "cpt", "nasm-cpt"]
-        },
-        {
-            "course": "cpt premium study",
-            "price": "1400",
-            "tag": "cpt",
-            "keywords": ["personal trainer", "cpt", "nasm-cpt"]
-        },
-        {
-            "course": "cpt all inclusive",
-            "price": "1600",
-            "tag": "cpt",
-            "keywords": ["personal trainer", "cpt", "nasm-cpt"]
-        },
-        {
-            "course": "performance enhancement specialist",
-            "price": "800",
-            "tag": "spec",
-            "keywords": ["sports performance", "performance enhancement specialist", "performance", "sports"]
-        },
-        {
-            "course": "wellness coach",
-            "price": "1500",
-            "tag": "wellness",
-            "keywords": ["wellness", "wellness coach", "health coach", "cwc"]
-        },
-        {
-            "course": "nutrition coach",
-            "price": "900",
-            "tag": "nutrition",
-            "keywords": ["nutrition", "cnc", "nasm-cnc", "nutrition coach"]
-        },
-        {
-            "course": "elite trainer",
-            "price": "200",
-            "tag": "bundle",
-            "keywords": ["diets", "navigating diets", "nutrition", "nutrition coach"]
-        }]
+		"course": "cpt self study",
+		"id": 0,
+		"price": "$1000",
+		"tag": "cpt",
+		"type": "cert",
+		"url": "https://www.nasm.org/products/nasm-cpt-self-study",
+		"keywords": [
+			"pt certification",
+			"personal trainer certification",
+			"self study",
+			"personal trainer"
+		],
+		"image": "https://www.nasm.org/images/default-album/nasm-cpt-7-self-study-program-(1)8cf297a434fb4a8dae053a72694c10f430ff77ed07d14bdabf237c59a0b6e417.tmb-tmb400x400.jpg?sfvrsn=4b2e3c20_1"
+	},
+	{
+		"course": "cpt guided study",
+		"id": 1,
+		"price": "$1200",
+		"tag": "cpt",
+		"type": "cert",
+		"url": "https://www.nasm.org/products/nasm-cpt-guided-study",
+		"keywords": [
+			"certification",
+			"cpt certification",
+			"guided study"
+		],
+		"image": "https://shop.nasm.org/images/default-source/default-album/cpt-7-guided-study-(1).tmb-.jpg?sfvrsn=31038c6_0"
+	},
+	{
+		"course": "cpt premium self study",
+		"id": 2,
+		"price": "$1400",
+		"tag": "cpt",
+		"type": "cert",
+		"url": "https://www.nasm.org/products/nasm-cpt-premium-self-study",
+		"keywords": [
+			"personal trainer course",
+			"self study",
+			"nasm-cpt"
+		],
+		"image": "https://www.nasm.org/images/default-album/nasm-cpt-7-premium-self-study-program6414e2ec0f214efa9f074099e0a9e140e6c0b3bd6286402baf74bfe8a5942b48.tmb-tmb400x400.jpg?sfvrsn=3b46f3de_1"
+	},
+	{
+		"course": "cpt all inclusive",
+		"id": 3,
+		"price": "$1600",
+		"tag": "cpt",
+		"type": "cert",
+		"url": "https://www.nasm.org/products/nasm-cpt-all-inclusive",
+		"keywords": [
+			"cpt",
+			"all inclusive"
+		],
+		"image": "https://www.nasm.org/images/default-album/cpt-7-all-inclusive-new.tmb-tmb400x400.jpg?sfvrsn=dba2c0f5_1"
+	},
+	{
+		"course": "nutrition coach",
+		"id": 4,
+		"price": "$900",
+		"tag": "popular",
+		"type": "cert",
+		"url": "https://www.nasm.org/continuing-education/certified-nutrition-coach",
+		"keywords": [
+			"nutrition",
+			"cnc",
+			"nasm-cnc",
+			"nutrition coach"
+		],
+		"image": "https://shop.nasm.org/images/default-source/product-images/nasm-product-images/2020/nutrition-certification-shop-tile-400x400.jpg?sfvrsn=f3aefc93_2"
+	},
+	{
+		"course": "sports nutrition coach",
+		"id": 5,
+		"price": "$800",
+		"tag": "",
+		"type": "cert",
+		"url": "https://www.nasm.org/continuing-education/sports-nutrition-certification",
+		"keywords": [
+			"nutrition",
+			"csnc",
+			"sports nutrition",
+			"sports nutrition coach"
+		],
+		"image": "https://www.nasm.org/images/2021/pages/certified-sports-nutrition-coach/csnc-shop-tile-updated-400x400.tmb-tmb400x400.jpg?sfvrsn=cd3b6323_1"
+	},
+	{
+		"course": "improving nutrition habits",
+		"id": 6,
+		"price": "free",
+		"tag": "",
+		"type": "prosumer",
+		"url": "https://trainer.nasm.org/improving-nutrition-habits-course",
+		"keywords": [
+			"nutrition",
+			"diets"
+		],
+		"image": "https://trainer.nasm.org/hubfs/nutrition-habits-course.jpg"
+	},
+	{
+		"course": "nutrition controversies",
+		"id": 7,
+		"price": "$100",
+		"tag": "",
+		"type": "prosumer",
+		"url": "https://www.nasm.org/products/online-nutrition-course-hot-topics-and-controversies",
+		"keywords": [
+			"nutrition, nutrition controversies"
+		],
+		"image": "https://www.nasm.org/images/product-images/nasm-product-images/online-nutrition-course-hot-topics-and-controversies-copy.tmb-tmb400x400.jpg?sfvrsn=c65e7db3_1"
+	},
+	{
+		"course": "nutrition and fitness coach bundle",
+		"id": 8,
+		"price": "$1500",
+		"tag": "",
+		"type": "bundle",
+		"url": "https://www.nasm.org/fitness-certifications/fitness-nutrition-bundle",
+		"keywords": [
+			"nutrition and fitness",
+			"fitness coach"
+		],
+		"image": "https://www.nasm.org/images/2022/pages/bundles/nutrition-fitness-bundle/fitness-and-nutrition-bundle-shop-tiles.png?sfvrsn=101d5e7b_2"
+	},
+	{
+		"course": "sports nutrition and fitness bundle",
+		"id": 9,
+		"price": "$1200",
+		"tag": "",
+		"type": "bundle",
+		"url": "https://www.nasm.org/fitness-certifications/sports-nutrition-fitness-bundle",
+		"keywords": [
+			"nutrition",
+			"sports nutrition"
+		],
+		"image": "https://www.nasm.org/images/2021/pages/sports-nutrition-fitness-bundle/sports-nutrition-fitness-bundle-shop-tile.png?sfvrsn=1dc26a9_2"
+	},
+	{
+		"course": "elite trainer bundle",
+		"id": 10,
+		"price": "$2500",
+		"tag": "popular",
+		"type": "bundle",
+		"fallback": "cpt",
+		"url": "https://www.nasm.org/fitness-certifications/elite-personal-trainer-program",
+		"keywords": [
+			"elite",
+			"elite trainer",
+			"bundle"
+		],
+		"image": "https://www.nasm.org/images/2022/shop-tiles/nasm-elite-trainer-bundle-shop-tile-400x400.jpg?sfvrsn=f800479_2"
+	},
+	{
+		"course": "career kickstarter bundle",
+		"id": 11,
+		"price": "$2000",
+		"tag": "",
+		"type": "bundle",
+		"url": "https://www.nasm.org/fitness-certifications/career-kickstarter-bundle",
+		"keywords": [
+			"career kickstarter",
+			"bundle"
+		],
+		"image": "https://www.nasm.org/images/2020/pages/bundles/intersection-7.png?sfvrsn=957b7cb3_2"
+	},
+	{
+		"course": "strength and conditioning bundle",
+		"id": 12,
+		"price": "$2500",
+		"tag": "",
+		"type": "bundle",
+		"url": "https://www.nasm.org/fitness-certifications/strength-and-conditioning-coach-bundle",
+		"keywords": [
+			"strength and conditioning",
+			"strength and conditioning coach",
+			"bundle"
+		],
+		"image": "https://www.nasm.org/images/2021/pages/bundles-pages/strength-and-conditioning-bundle-update-1.png?sfvrsn=c3516027_2"
+	},
+	{
+		"course": "ultimate trainer bundle",
+		"id": 13,
+		"price": "$4000",
+		"tag": "",
+		"type": "bundle",
+		"url": "https://www.nasm.org/fitness-certifications/ultimate-trainer-bundle",
+		"keywords": [
+			"elite",
+			"elite trainer",
+			"bundle"
+		],
+		"image": "https://www.nasm.org/images/2021/pages/bundles-pages/ultimate-trainer-bundle/ultimate-trainer-bundle-shop-tile-400x400.jpg?sfvrsn=1a4c3f8d_2"
+	},
+	{
+		"course": "performance enhancement specialist",
+		"id": 14,
+		"price": "800",
+		"tag": "popular",
+		"type": "spec",
+		"url": "https://www.nasm.org/continuing-education/fitness-specializations/performance-enhancement-specialist",
+		"keywords": [
+			"sports performance",
+			"performance enhancement specialist",
+			"performance",
+			"sports",
+			"pes"
+		],
+		"image": "https://www.nasm.org/images/product-images/live-action/sports-performance-specialist-pes-self-study-program-converted.tmb-tmb400x400.jpg?sfvrsn=752d7eb3_2"
+	},
+	{
+		"course": "wellness coach",
+		"id": 15,
+		"price": "1500",
+		"tag": "popular",
+		"type": "cert",
+		"fallback": "cpt",
+		"url": "https://www.nasm.org/continuing-education/wellness-coach",
+		"keywords": [
+			"wellness",
+			"wellness coach",
+			"health coach",
+			"cwc"
+		],
+		"image": "https://www.nasm.org/images/default-album/certified-wellness-coach-400x400-(1).tmb-tmb400x400.jpg?sfvrsn=4b385d21_1"
+	}
+]
