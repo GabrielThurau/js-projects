@@ -2,6 +2,8 @@
     {
         "course": "cpt self study",
         "id": 0,
+        "hasPromo": "true",
+        "promo": "0.4",
         "price": "1000",
         "tag": "cpt",
         "type": "cert",
@@ -17,6 +19,8 @@
     {
         "course": "cpt guided study",
         "id": 1,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "1200",
         "tag": "cpt",
         "type": "cert",
@@ -31,6 +35,8 @@
     {
         "course": "cpt premium self study",
         "id": 2,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "1400",
         "tag": "cpt",
         "type": "cert",
@@ -45,6 +51,8 @@
     {
         "course": "cpt all inclusive",
         "id": 3,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "1600",
         "tag": "cpt",
         "type": "cert",
@@ -58,6 +66,8 @@
     {
         "course": "nutrition coach",
         "id": 4,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "900",
         "tag": "popular",
         "type": "cert",
@@ -73,6 +83,8 @@
     {
         "course": "sports nutrition coach",
         "id": 5,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "800",
         "tag": "",
         "type": "cert",
@@ -88,6 +100,8 @@
     {
         "course": "improving nutrition habits",
         "id": 6,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "0",
         "tag": "",
         "type": "prosumer",
@@ -101,6 +115,8 @@
     {
         "course": "nutrition controversies",
         "id": 7,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "100",
         "tag": "",
         "type": "prosumer",
@@ -113,6 +129,8 @@
     {
         "course": "nutrition and fitness coach bundle",
         "id": 8,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "1500",
         "tag": "",
         "type": "bundle",
@@ -126,6 +144,8 @@
     {
         "course": "sports nutrition and fitness bundle",
         "id": 9,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "1200",
         "tag": "",
         "type": "bundle",
@@ -139,6 +159,8 @@
     {
         "course": "elite trainer bundle",
         "id": 10,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "2500",
         "tag": "popular",
         "type": "bundle",
@@ -154,6 +176,8 @@
     {
         "course": "career kickstarter bundle",
         "id": 11,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "2000",
         "tag": "",
         "type": "bundle",
@@ -167,6 +191,8 @@
     {
         "course": "strength and conditioning bundle",
         "id": 12,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "2500",
         "tag": "",
         "type": "bundle",
@@ -181,6 +207,8 @@
     {
         "course": "ultimate trainer bundle",
         "id": 13,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "4000",
         "tag": "",
         "type": "bundle",
@@ -195,6 +223,8 @@
     {
         "course": "performance enhancement specialist",
         "id": 14,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "800",
         "tag": "popular",
         "type": "spec",
@@ -211,6 +241,8 @@
     {
         "course": "wellness coach",
         "id": 15,
+         "hasPromo": "true",
+        "promo": "0.4",
         "price": "1500",
         "tag": "popular",
         "type": "cert",
